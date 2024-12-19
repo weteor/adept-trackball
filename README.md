@@ -1,5 +1,41 @@
 # The Ploopy Adept Trackball
 
+## xiao-mod changes:
+
+- newly routed pcb ( [KiCAD files](hardware\electronics\adept_xiao) )
+  
+  - xiao rp2040 controller
+  
+  - two layer
+  
+  - components needed:
+    
+    - 1x seeed xiao rp2040 controller
+    
+    - 1x xc6206P18 LDO in SOT-23 package
+    
+    - 1x 100nF capacitor - 0805
+    
+    - 2x 1uF capacitors - 0805
+    
+    - 1x 10uF capacitor - 0805
+    
+    - 1x 39Ohm resistor - 0805
+    
+    - 1x 10kOhm resistor - 0805
+    
+    - 1x PMW3360DM-T2QU sensor (same as in orig ploopy adept)
+    
+    - 6x Omron D2LS-21 switches (same as in orig ploopy adept)
+
+- modified case to support xiao dimensions ( [FreeCAD and STL files](hardware\mechanicals-xiao) )
+
+- firmware modifications to support xiao pinout, copy [folder](firmwares\xiao_mod) to your Vial firmware folder under keyboards/ploopyco and build with: 
+  `make ploopyco/adept_xiao:vial`
+  or use the  `ploopyco_adept_xiao_rev1_001_vial.uf2` in the folder directly and configure the buttons in vial
+
+
+
 ![The Ploopy Adept Trackball](adept.jpg)
 
 By some stroke of luck, you've made your way here. The Ploopy Adept Trackball. Your life will never be the same.
