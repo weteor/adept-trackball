@@ -1,0 +1,3 @@
+POINTING_DEVICE_DRIVER = pmw3360
+
+DEFAULT_FOLDER = ploopyco/adept_xiao/rev1_001

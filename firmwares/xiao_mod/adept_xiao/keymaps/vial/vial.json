@@ -1,0 +1,50 @@
+{
+  "name": "PloopyCo Trackball",
+  "vendorId": "0x5043",
+  "productId": "0x5442",
+  "lighting": "none",
+  "customKeycodes": [
+    {"name": "DPI Config", "title": "DPI Config", "shortName": "DPI"},
+    {"name": "Drag Scroll", "title": "Drag Scroll", "shortName": "Drag\nScrl"}
+  ],
+  "matrix": {"rows": 2, "cols": 3},
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "h": 2
+        },
+        "0,1",
+        {
+          "x": 0.25,
+          "h": 1.25
+        },
+        "0,2",
+        {
+          "x": 0.25,
+	  "h": 1.25
+        },
+        "1,2",
+        {
+          "x": 0.25,
+	  "h": 2
+        },
+        "1,1"
+      ],
+      [
+        {
+	  "y": 1.25,
+          "w": 1.75,
+          "h": 2
+        },
+        "0,0",
+        {
+          "x": 1.25,
+          "w": 1.75,
+          "h": 2
+        },
+        "1,0"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "usb": {
+        "device_version": "1.0.0"
+    },
+    "matrix_pins": {
+	    "cols": [ "GP6", "GP29", "GP28"],
+	    "rows": [ "GP26", "GP27" ]
+    },
+    "matrix_size": {
+	    "cols": 3,
+	    "rows": 2
+    },
+    "diode_direction": "COL2ROW"
+}
